@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Calculator</title>
+				<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+						integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+						crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td><input type="text" name="left" id="left" placeholder="Enter number here"/></td>
+				<td><select name="operand" id="operand" value="">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+						<option value="%">%</option>
+				</select></td>
+				<td><input type="text" name="right" id="right" placeholder="Enter number here"/></td>
+				<td><input type="submit" name="submit" id="submit" value="Try me!"/></td>
+			</tr>
+		</table>
+
+		<script>		
+
+			$('#submit').click(function()
+			{
+				var left = document.getElementById("left").value;
+				var right = document.getElementById("right").value;
+				if (left == "" || right == "")
+				{
+					console.log("Error :(");
+					alert("Error :(");
+					return;
+				}
+				else
+				{
+					left = Number(document.getElementById("left").value);
+					right = Number(document.getElementById("right").value);
+				}
+				var operand = document.getElementById("operand").value;
+				if (operand == '+')
+				{
+					console.log(left + right);
+					alert(left + right);
+				}
+				else if (operand == '-')
+				{
+					console.log(left - right);
+					alert (left - right);
+				}
+				else if(operand == '*')
+				{
+					console.log(left * right);
+					alert (left * right);
+				}
+				else if (operand == '/')
+				{
+					if (right == 0)
+					{
+						console.log("It's over 9000!");
+						alert("It's over 9000!");
+					}
+					else
+					{
+						console.log(left / right);
+						alert(left / right);
+					}
+				}
+				else
+				{
+					if (right == 0)
+					{
+						console.log("It's over 9000!");
+						alert("It's over 9000!");
+					}
+					else
+					{
+						console.log(left % right);
+						alert(left % right);
+					}
+				}
+			});
+
+			setInterval(function()
+			{
+				alert("Please, use me... senpai...");
+			}, 30000);
+
+		</script>
+	</body>
+</html>
