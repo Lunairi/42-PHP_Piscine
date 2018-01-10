@@ -1,0 +1,88 @@
+body					{
+							background-image: url("https://image.ibb.co/jKgu5b/eggplant.gif");
+						}
+.help					{
+							display: block;
+							margin: auto;
+						}
+ul, li					{
+							list-style-type: none;
+							text-decoration: none;
+							margin: auto;
+							display: block;
+							font-size: 120%;
+							font-family: sans-serif;
+							padding: 0;
+						}
+ul li					{
+							vertical-align: top;
+
+						}
+ul li a					{
+							display: inline-block;
+						}
+ul.master				{
+							background-color: purple;
+							overflow: hidden;
+							margin: auto;
+							display: flex;
+						}
+ul.master >
+li.eggplant > a			{
+							display: inline-block;
+							color: white;
+							text-align: center;
+							padding: 14px 16px;
+							text-decoration: none;
+						}
+ul.master >
+li.eggplant:hover		{
+ 							background-color: darkorchid;
+						}
+ul.master > 
+li.eggplant > 
+ul.type-eggplant, 
+ul.type-eggplant > 
+li >
+ul.extra-type-eggplant	{
+							display: none;
+							position: absolute;
+							background-color: violet;
+							min-width: 160px;
+							box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+						}
+ul.master > 
+li.eggplant:hover > 
+ul.type-eggplant		{ 
+  							display: block;
+						}
+ul.master > 
+li.eggplant > 
+ul.type-eggplant > 
+li,
+ul.type-eggplant > 
+li 						{
+							display: block;
+							position: relative;
+						}
+ul.master > 
+li.eggplant > 
+ul.type-eggplant > 
+li:hover,
+ul.type-eggplant > 
+li a:hover				{
+							background-color: orchid;
+						}
+ul.master > 
+li.eggplant > 
+ul.type-eggplant > 
+li > a,
+ul.type-eggplant > 
+li > a					{
+							color: white;
+							font-size: 50%;
+							padding: 12px 16px;
+							text-decoration: none;
+							display: block;
+							text-align: left;
+						}

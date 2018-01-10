@@ -1,0 +1,123 @@
+td				{
+					border: 1px solid white;
+					padding: 3px;
+					font-family: arial;
+					font-size: 2vw;
+					font-size: 2vh;
+					width: 4vh;
+					width: 4vw;
+					height: 4vh;
+					height: 4vw;
+					text-align: center;
+				}
+p 				{
+					margin: 2px;
+				}
+table 			{
+					margin: auto;
+				}
+.logo			{
+					width: 20%;
+					height: auto;
+					margin: auto;
+					display: block;
+				}
+.segment		{
+					font-size: 1vw;
+					font-size: 1vh;
+					color: black;
+				}
+.atom			{
+					font-size: 1vw;
+					font-size: 1vh;
+					font-weight: normal;
+					text-align: left;
+					color: black;
+				}
+.mass			{
+					font-size: 1vw;
+					font-size: 1vh;
+					font-weight: normal;
+					text-align: right;
+					color: black;
+				}
+.info			{
+					font-size: 1vw;
+					font-size: 1vh;
+					font-weight: normal;
+					text-align: center;
+					color: black;
+				}
+.legend			{
+					font-size: 1vw;
+					font-size: 1vh;
+					font-weight: bold;
+					text-align: center;
+					border: 2px solid black;
+				}
+.alkali			{
+					background-color: orange;
+					font-weight: bold;
+					border: 2px solid darkorange;
+				}
+.alkaline		{
+					background-color: yellow;
+					font-weight: bold;
+					border: 2px solid gold;
+				}
+.lanthanoids	{
+					background-color: hotpink;
+					font-weight: bold;
+					border: 2px solid deeppink;
+				}
+.actinoids		{
+					background-color: orchid;
+					font-weight: bold;
+					border: 2px solid darkviolet;
+				}
+.transition		{
+					background-color: pink;
+					font-weight: bold;
+					border: 2px solid hotpink;
+				}
+.posttransition	{
+					background-color: tan;
+					font-weight: bold;
+					border: 2px solid brown;
+				}
+.metalloids		{
+					background-color: salmon;
+					font-weight: bold;
+					border: 2px solid red;
+				}
+.nonmetal		{
+					background-color: greenyellow;
+					font-weight: bold;
+					border: 2px solid green;
+				}
+.noblegas		{
+					background-color: cyan;
+					font-weight: bold;
+					color: darkred;
+					border: 2px solid blue;
+				}
+.noclass		{
+					background-color: azure;
+					font-weight: bold;
+					color: dimgray;
+					border: 2px solid gray;
+				}
+.gas			{
+					color: darkred;
+				}
+.liquid			{
+					color: blue;
+				}
+hr				{
+					clear: both;
+				}
+.author			{
+					text-align: center;
+					font-style: italic;
+					font-family: monospace;
+				}
